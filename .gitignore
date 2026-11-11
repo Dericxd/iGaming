@@ -1,0 +1,45 @@
+# Dependencias (se instalan con composer install y npm install)
+/vendor/
+/node_modules/
+
+# Archivos compilados de Frontend (Vite) y enlaces simbólicos
+/public/build/
+/public/hot
+/public/storage
+
+# Archivos de configuración de entorno y claves privadas
+.env
+.env.backup
+.env.production
+.env.local
+.env.*.local
+!.env.example
+/auth.json
+
+# Bases de datos SQLite locales
+/database/*.sqlite
+/database/*.sqlite-journal
+/database/*.sqlite-shm
+/database/*.sqlite-wal
+
+# Archivos de almacenamiento temporal, logs y caché de pruebas
+*.log
+/storage/*.key
+/storage/pail/
+.phpunit.result.cache
+/.phpunit.cache/
+
+# Configuraciones de IDEs y Editores (PhpStorm, VSCode, etc.)
+/.idea/
+/.vscode/
+/.fleet/
+/.nova/
+/.zed/
+.phpactor.json
+
+# Archivos de sistema operativo y máquinas virtuales
+.DS_Store
+Thumbs.db
+Desktop.ini
+Homestead.json
+Homestead.yaml
